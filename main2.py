@@ -14,7 +14,6 @@ webpage = requests.get(url)
 # insert error handling here
 soup = BeautifulSoup(webpage.text, 'html.parser')
 
-
 #insert error handling here
 # Grabs the first table in the url, which is the forecast data
 table = soup.find_all('table')[0]
