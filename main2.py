@@ -58,3 +58,5 @@ with open('BOM Forecast ' + timestamp + '.csv', 'a',
     df.to_csv(f, index=False, encoding='utf-8-sig', mode='a')
     f.write("\n")
     print(df)
+
+#end
